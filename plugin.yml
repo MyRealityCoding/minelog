@@ -1,0 +1,31 @@
+name: MineLogPlugin
+description: Chat logging plugin for bukkit
+main: de.myreality.minecraft.minelog.MineLogPlugin
+version: 1.2
+author: Miguel Gonzalez
+
+commands:
+    minelog:
+        description: Show all commands
+        usage: \minelog
+    minelog.level:
+        description: Set the level of the plugin
+        usage: \minelog level [off | farmer | battle | full]
+    minelog.info:
+        description: Get current plugin information
+        usage: \minelog info
+    minelog.messages:
+        description: Change the start message files
+        usage: \minelog messagse <List of message files>
+permissions:
+    minelog:
+        children:
+            minelog.level: true
+            minelog.info: true
+            minelog.messages: true
+    minelog.level:
+        default: true
+    minelog.info:
+        default: true
+    minelog.messages:
+        default: op

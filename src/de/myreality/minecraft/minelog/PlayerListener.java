@@ -133,8 +133,8 @@ public class PlayerListener implements Listener {
 		sendMessage(player, DEFAULT_COLOR, "You receive " + amount + "x " + item + "");
 	}
 	
-	private void sendDamageMessage(Player player, int damage) {
-		sendMessage(player, DAMAGE_COLOR, "You suffer " + damage + " damage");
+	private void sendDamageMessage(Player player, double d) {
+		sendMessage(player, DAMAGE_COLOR, "You suffer " + d + " damage");
 	}
 	
 	private void sendLevelMessage(Player player, int level) {

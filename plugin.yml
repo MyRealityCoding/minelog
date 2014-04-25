@@ -1,7 +1,7 @@
 name: MineLogPlugin
 description: Chat logging plugin for bukkit
-main: de.myreality.minelog.MineLogPlugin
-version: 1.7.2-SNAPSHOT
+main: de.myreality.minecraft.minelog.MineLogPlugin
+version: 1.7.9-R0.1-SNAPSHOT
 author: Miguel Gonzalez
 
 commands:
